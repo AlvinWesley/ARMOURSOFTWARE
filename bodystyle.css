@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    /* margin:0;
+    padding:0; */
+    scroll-behavior: smooth;
+    scrollbar-color: black;
+    
+
+}
+body{
+    background-image: url("wp12020214-teal-gradient-wallpapers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bodyskeleton{
+    background-color: rgba(97, 91, 91, 0.548);
+    /* margin: 0;
+    padding:0; */
+}
+.bodyupper {
+    
+    background-image: url("wp10760216-japanese-school-wallpapers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 12cm;
+}
+.bodyupper .uppercontent{
+    /* margin:10px; */
+    padding:10px;
+    
+}
+.bodyupper .uppercontent .wordscontainer{
+    height:max-content;
+    width:30%;
+    padding:20px;
+    margin: 10px;
+    background-color: rgba(19, 17, 14, 0.856);
+    transition:0.2s ease-in-out;
+
+}
+.bodyupper .uppercontent .wordscontainer:hover{
+    background-color: rgba(43, 39, 35, 0.856);
+    cursor: pointer;
+}
+.bodyupper .uppercontent .wordscontainer h2{
+    color: #f7f4f4;
+    font-family:Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.bodyupper .uppercontent .wordscontainer p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #f7f4f4;
+    text-align: justify;
+    margin: 20px 0;
+  }
+  
+  .bodyupper .uppercontent .wordscontainer p strong {
+    color: #007bff;
+  }
+  .contentcover{
+    display:flex;
+    justify-content: center;
+
+  }
+ .iconscontainer{
+    
+    width: fit-content;
+    min-width: 7cm;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height:fit-content;
+    padding:10px;
+    margin: 10px;
+    margin-top: -5%;
+    
+    right:50%;
+    /* bottom:220px; */
+    background-color: rgba(253, 252, 249, 0.486);
+    border-radius:10px;
+    
+
+}
+ .iconscontainer .icon{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #f7f4f4f8;
+height:3cm;
+width:3.5cm;
+margin:5px;
+cursor: pointer;
+}
+.iconscontainer .icon img{
+    height:3.3cm;
+    width:3.3cm; 
+}
+
+.bodylower{
+}
+.bodylower .productscover{
+    color:white;
+    padding:10px;
+    text-align: center;
+
+
+}
+.bodylower .productscover .package{
+    padding:5px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+
+}
+.bodylower .productscover .package:hover{
+    background-color: #f7f4f454;
+}
+.bodylower .productscover .package .product1{
+    padding:20px;
+    width:fit-content;
+    transition: 0.5s ease-in-out;
+    
+
+}
+.bodylower .productscover .package .product1:hover{
+    background-color: rgba(3, 3, 3, 0.39);
+}
+.bodylower .productscover .package .product1 .shell{
+    padding:0;
+width:fit-content;
+border-radius: 10px;
+overflow: hidden;
+cursor: pointer;
+transition: 0.3s ease-in-out;
+
+}
+.bodylower .productscover .package .product1 .shell:hover{
+    transform: scale(1.04);
+}
+.bodylower .productscover .package .product1 .shell .upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:6px;
+    width: 6cm;
+    background-image: url("wp4312264-website-wallpapers.jpg");
+    background-size: cover;
+    
+
+
+}
+.bodylower .productscover .package .product1 .shell .upper .pic{
+    box-shadow: 0 0 3px #007bff,0 0 5px #070707;
+    border:4px solid rgb(3, 38, 83);
+    border-radius:50%;
+    width:5cm;
+    height:4.9cm;
+    bottom:10px;
+    overflow:hidden;
+    transition: 0.2s ease-in-out;
+
+}
+.product1 .shell .upper .pic img{
+    width:5cm;
+    height:5cm; 
+}
+.product1 .shell .upper .pic:hover{
+    transform: scale(1.05);
+
+}
+.bodylower .productscover .package .product1 .shell .lower{
+    padding:20px;
+    padding-bottom: 40px;
+    width: 6cm;
+    background-color: #e0d5d56c;
+
+}

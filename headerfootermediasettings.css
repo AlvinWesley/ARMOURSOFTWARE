@@ -1,0 +1,36 @@
+@media only screen and (max-width: 600px) {
+    .bodyupper .lowercontent .iconscontainer{
+        transform: scale(0.7);
+        left:0%;
+        top:200px;
+        position: relative;
+        visibility: hidden;
+        
+    }
+    .bodyupper .uppercontent{
+       
+    }
+    .bodyupper .uppercontent .wordscontainer{
+        transform: scale(1.02);
+        width:fit-content;
+        margin:0;
+
+    }
+  }
+  @media (orientation: landscape) and (max-width:900px){
+    .bodyupper .uppercontent{
+       display:flex;
+       flex-wrap: wrap;
+       justify-content: center;
+
+
+    }
+    .bodyupper .uppercontent .wordscontainer{
+        transform: scale(1.02);
+        width:fit-content;
+        margin:0;
+
+    }
+  }
+  
+  
