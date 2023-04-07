@@ -105,7 +105,7 @@ body{background-color: rgb(17, 58, 236);
    border-bottom-left-radius: 10px;
    border-bottom-right-radius: 10px;
    width:8.5cm;
-   height:12cm;
+   height:11.5cm;
    transition:  0.5s ease-in-out;
    
 
@@ -196,7 +196,7 @@ body{background-color: rgb(17, 58, 236);
 }
 .scrollup{
     transform:translateY(-460px);
-    height:13.4cm;
+    height:13.3cm;
     width:9cm;
 }
 .invisible{
