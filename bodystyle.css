@@ -1,19 +1,24 @@
 *{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     /* margin:0;
     padding:0; */
     scroll-behavior: smooth;
-    scrollbar-color: black;
-    
+    scrollbar-color: rgb(224, 12, 12);
+    transition: 0.5s ease-in-out;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 body{
-    background-image: url("wp12020214-teal-gradient-wallpapers.jpg");
+    background-image: url("wp5502152-gradient-winter-wallpapers.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
+s{
+    color:rgb(175, 56, 8);
+    margin: 5px;
+}
 .bodyskeleton{
-    background-color: rgba(97, 91, 91, 0.548);
+    
     /* margin: 0;
     padding:0; */
 }
@@ -32,28 +37,30 @@ body{
 .bodyupper .uppercontent .wordscontainer{
     height:max-content;
     width:30%;
-    padding:20px;
+    padding:15px;
     margin: 10px;
-    background-color: rgba(19, 17, 14, 0.856);
+    background-color: rgba(228, 225, 235, 0.925);
     transition:0.2s ease-in-out;
 
 }
 .bodyupper .uppercontent .wordscontainer:hover{
-    background-color: rgba(43, 39, 35, 0.856);
+    background-color: rgba(234, 231, 240, 0.603);
     cursor: pointer;
 }
 .bodyupper .uppercontent .wordscontainer h2{
-    color: #f7f4f4;
+    color: #000000;
     font-family:Arial, sans-serif;
     text-transform: uppercase;
+    text-align: justify;
     font-size: 40px;
 }
 .bodyupper .uppercontent .wordscontainer p {
     font-family: Arial, sans-serif;
     font-size: 18px;
+    font-weight: 900;
     line-height: 1.5;
-    color: #f7f4f4;
-    text-align: justify;
+    color: #000000;
+    text-align: center;
     margin: 20px 0;
   }
   
@@ -79,34 +86,41 @@ body{
     
     right:50%;
     /* bottom:220px; */
-    background-color: rgba(253, 252, 249, 0.486);
+    background-color: rgba(241, 232, 241, 0.849);
     border-radius:10px;
     
 
 }
  .iconscontainer .icon{
     display: flex;
+    padding: 0;
     justify-content: center;
     overflow: hidden;
     border-radius: 10px;
-    background-color: #f7f4f4f8;
+    background-color:white;
 height:3cm;
 width:3.5cm;
 margin:5px;
 cursor: pointer;
+
 }
 .iconscontainer .icon img{
     height:3.3cm;
     width:3.3cm; 
+    transition:0.1s ease-in-out;
+}
+.iconscontainer .icon img:hover{
+    transform: scale(1.04);
 }
 
-.bodylower{
+.bodylower{ 
+    
 }
 .bodylower .productscover{
     color:white;
     padding:10px;
     text-align: center;
-
+    
 
 }
 .bodylower .productscover .package{
@@ -115,23 +129,24 @@ cursor: pointer;
     flex-wrap: wrap;
     justify-content: center;
     transition: 0.3s ease-in-out;
+    
 
 }
 .bodylower .productscover .package:hover{
-    background-color: #f7f4f454;
 }
 .bodylower .productscover .package .product1{
-    padding:20px;
-    width:fit-content;
+    padding:5px;
+    width:max-content;
     transition: 0.5s ease-in-out;
+    backdrop-filter: blur(10px);
     
 
 }
 .bodylower .productscover .package .product1:hover{
-    background-color: rgba(3, 3, 3, 0.39);
+    /* background-color: rgba(3, 3, 3, 0.39); */
 }
 .bodylower .productscover .package .product1 .shell{
-    padding:0;
+
 width:fit-content;
 border-radius: 10px;
 overflow: hidden;
@@ -140,34 +155,39 @@ transition: 0.3s ease-in-out;
 
 }
 .bodylower .productscover .package .product1 .shell:hover{
-    transform: scale(1.04);
+    transform: scale(1.01);
 }
 .bodylower .productscover .package .product1 .shell .upper{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin:5px;
+    margin-bottom: 0;
     padding:6px;
-    width: 6cm;
-    background-image: url("wp4312264-website-wallpapers.jpg");
+    width: 7.5cm;
+    background-image: transparent;
     background-size: cover;
+    backdrop-filter: blur(70px);
+    border: 1px solid #007bff;
+    border-bottom: none;
     
 
 
 }
 .bodylower .productscover .package .product1 .shell .upper .pic{
     box-shadow: 0 0 3px #007bff,0 0 5px #070707;
-    border:4px solid rgb(3, 38, 83);
+    border:4px solid rgba(9, 128, 226, 0.096);
     border-radius:50%;
-    width:5cm;
-    height:4.9cm;
+    width:5.5cm;
+    height:5.3cm;
     bottom:10px;
     overflow:hidden;
     transition: 0.2s ease-in-out;
 
 }
 .product1 .shell .upper .pic img{
-    width:5cm;
-    height:5cm; 
+    width:5.4cm;
+    height:5.1cm; 
 }
 .product1 .shell .upper .pic:hover{
     transform: scale(1.05);
@@ -176,7 +196,9 @@ transition: 0.3s ease-in-out;
 .bodylower .productscover .package .product1 .shell .lower{
     padding:20px;
     padding-bottom: 40px;
-    width: 6cm;
-    background-color: #e0d5d56c;
+    width: 7.5cm;
+    background-color: #0b70eb6c;
+    margin:5px;
+    margin-top:0;
 
 }

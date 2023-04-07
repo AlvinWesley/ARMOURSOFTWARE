@@ -10,6 +10,9 @@
     .bodyupper .uppercontent{
        
     }
+    .bodylower .productscover .package .product1 .shell .upper{
+        width:100%;
+    }
     .bodyupper .uppercontent .wordscontainer{
         transform: scale(1.02);
         width:fit-content;

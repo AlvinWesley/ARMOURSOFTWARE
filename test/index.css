@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scrollbar-color: green;
+}
+body{
+    background-image: url("/wp5315408-gradient-abstract-wallpapers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bodyskeleton{
+    border: 1px solid #f44;
+    height:150vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding:20px;
+}
+.bodycontent{
+    border:1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    height:50%;
+    width:50%;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    /* position: absolute;
+    top:0; */
+}
+.content{
+    border:1px solid #fff;
+    padding:20px;
+    height:50%;
+    width:50%;
+    background-color: #fff;
+}
+button{
+    padding:10px;
+    
+}
+p{
+    position: relative;
+}
+.jeddi{
+    transition: transform 1s ease-in-out;
+    transform: translateY(50px);
+}

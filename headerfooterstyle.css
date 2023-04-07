@@ -29,7 +29,7 @@ a{
     border:1px solid goldenrod;
 }
 .headerskeleton{
-   background-color:rgba(0, 0, 0, 0.863);
+   background-color:rgb(253, 251, 251);
 }
 .headerupper{ 
 
@@ -64,9 +64,10 @@ padding-right:10px;
 padding-left:10px;
 padding-top:5px;
 margin-right:0;
-border-top-left-radius: 20px;
+margin-bottom: 5px;
+/* border-top-left-radius: 20px; */
  
-background-color: rgba(245, 239, 239, 0.308);;
+/* background-color: rgb(255, 255, 255); */
 
 }
 .headerupper .right ul {
@@ -81,26 +82,34 @@ background-color: rgba(245, 239, 239, 0.308);;
 .headerupper .right ul li{
     margin-left:5px;
     margin-right:5px;
-    margin-bottom: 0;
-border-top-left-radius: 10px;
-border-top-left-radius: 10px;
-    background-color: rgba(22, 2, 2, 0.534);
-    border-bottom-right-radius: 10px; 
+    margin-bottom: 5px;
     display: inline;
     padding:10px;
-    transition: ease-in-out 0.2s;
-}
-.headerupper .right ul li:hover{
-    transform: scale(1.05);
-    background-color: rgba(245, 245, 220, 0.247);
+    transition:  ease-in-out 0.2s;
 }
 .headerupper .right ul li a{
-    color:rgb(252, 253, 253);
+    display: flex;
+    color:rgb(1, 2, 2);
     text-decoration: none;
     font-size: 20px;
+    font-weight: 900;
+   
+}
+.headerupper .right ul li a::after{
+    content: '';
+    width: 0;
+    position:absolute;
+    top:55px;
+    /* right:5px; */
+    height:3px;
+    background-color: rgb(121, 2, 2);
+    transition:  width 0.3s ;
+}
+.headerupper .right ul li a:hover::after{
+    width: 5%;
 }
 .headerlower{
-    background-color: rgba(245, 239, 239, 0.308);
+    background-color: rgb(0, 0, 0);
 }
 .headerlower .lowercontents{
     display:flex;
@@ -109,17 +118,16 @@ border-top-left-radius: 10px;
 }
 .headerlower .lowercontents section{
     
-    padding:10px;
+    padding:5px;
     margin:5px;
     width:max-content;
     text-align: center;
-    background-color: rgba(75, 39, 39, 0.137);
+    background-color: rgba(0, 3, 3, 0.801);
     transition: ease-in-out 0.2s;
 }
 .headerlower .lowercontents section:hover{
-    background-color: rgba(250, 235, 215, 0.205);
-    border-radius:4px;
-    transform: scale(1.04);
+    background-color: rgba(209, 208, 207, 0.192);
+    
 }
 .headerlower .lowercontents section a{
     text-decoration: none;
